@@ -31,10 +31,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp GRAVE  &kp Q       &kp W        &kp F             &kp P       &kp B            &kp J                        &kp L       &kp U             &kp Y        &kp SEMI    &kp BSLH
-&kp MINUS  &mt LGUI A  &mt LCTRL R  &mt LEFT_SHIFT S  &mt LALT T  &kp G            &kp M                        &mt RALT N  &mt LEFT_SHIFT E  &mt LCTRL I  &mt RGUI O  &kp SQT
-&kp EXCL   &kp Z       &kp X        &kp C             &kp D       &kp V            &kp K                        &kp H       &kp COMMA         &kp DOT      &kp FSLH    &kp ESC
-                                    &mt CAPS TAB      &mo 1       &mt RET SPACE    &mt BACKSPACE LC(BACKSPACE)  &mo 2       &to 3
+&mt HOME CAPSLOCK    &kp Q  &kp W  &kp F      &kp P        &kp B                   &kp J                        &kp L                                       &kp U                &kp Y             &kp SQT                       &mt AMPERSAND GRAVE
+&mt LEFT_ALT ESCAPE  &kp A  &kp R  &kp S      &kp T        &kp G                   &kp M                        &kp N                                       &kp E                &kp I             &kp O                         &mt RIGHT_BRACKET LEFT_BRACKET
+&kp LCTRL            &kp Z  &kp X  &kp C      &kp D        &kp V                   &kp K                        &kp H                                       &mt SEMICOLON COMMA  &mt COLON PERIOD  &mt LS(QUESTION) EXCLAMATION  &mt SLASH NON_US_BACKSLASH
+                                   &lt 2 TAB  &lt 1 ENTER  &mt LEFT_SHIFT SPACE    &mt BACKSPACE LC(BACKSPACE)  &mt LS(RIGHT_PARENTHESIS) LEFT_PARENTHESIS  &kp MINUS
             >;
         };
 
