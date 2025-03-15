@@ -46,10 +46,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LALT   &kp N4    &kp N3    &kp N2    &kp N1    &kp N5       &kp N6    &kp N0     &kp N9     &kp N8     &kp N7     &none
-&kp LCTRL  &kp DLLR  &kp PLUS  &kp LPAR  &kp LBRC  &kp AT       &kp PIPE  &kp MINUS  &kp EQUAL  &kp UNDER  &kp ASTRK  &none
-&kp LSHFT  &kp EXCL  &kp HASH  &kp RPAR  &kp RBRC  &kp TILDE    &kp AMPS  &kp PRCNT  &kp LBKT   &kp RBKT   &kp CARET  &none
-                               &to 3     &none     &none        &none     &none      &none
+&kp LEFT_ALT  &kp N8        &kp N3    &kp N2       &kp N1       &kp N9       &kp F9  &kp F10  &kp F11  &kp F12  &none  &none
+&kp LCTRL     &kp N7        &kp N5    &kp N0       &kp N4       &kp N6       &kp F1  &kp F2   &kp F3   &kp F4   &none  &none
+&kp DOLLAR    &kp ASTERISK  &kp HASH  &kp PERCENT  &kp AT_SIGN  &kp LCTRL    &kp F5  &kp F6   &kp F7   &kp F8   &none  &none
+                                      &none        &none        &none        &none   &none    &none
             >;
         };
 
