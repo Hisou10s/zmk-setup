@@ -61,9 +61,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp PRINTSCREEN  &kp HOME   &kp UP_ARROW    &kp END     &mt F1 F7     &mt F8 F2     &none   &none   &none   &none  &none  &none
-&kp LEFT_SHIFT   &kp LEFT   &kp DOWN_ARROW  &kp RIGHT   &mt F9 F3     &mt F10 F4    &none   &none   &none   &none  &none  &none
-&kp LCTRL        &kp PG_UP  &kp PAGE_DOWN   &kp DELETE  &mt F11 F5    &mt F12 F6    &none   &none   &none   &none  &none  &none
+&kp PRINTSCREEN  &kp HOME   &kp UP_ARROW    &kp END     &mt F7 F11    &mt F8 F1     &none   &none   &none   &none  &none  &none
+&kp LEFT_SHIFT   &kp LEFT   &kp DOWN_ARROW  &kp RIGHT   &mt F12 F5    &mt F6 F2     &none   &none   &none   &none  &none  &none
+&kp LCTRL        &kp PG_UP  &kp PAGE_DOWN   &kp DELETE  &mt F9 F3     &mt F12 F4    &none   &none   &none   &none  &none  &none
                                             &bt BT_CLR  &bt BT_SEL 0  &bt BT_NXT    &trans  &trans  &trans
             >;
         };
